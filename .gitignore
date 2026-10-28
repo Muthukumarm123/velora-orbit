@@ -1,0 +1,25 @@
+node_modules/
+dist/
+build/
+
+.env
+.env.*
+!.env.example
+
+*.log
+
+.DS_Store
+.vscode/
+.idea/
+
+coverage/
+
+# AI/model files
+*.safetensors
+*.bin
+*.pt
+*.pth
+*.onnx
+*.gguf
+checkpoints/
+models/

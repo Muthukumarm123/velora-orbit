@@ -1,0 +1,17 @@
+{
+  "name": "velora-orbit",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Velora Orbit — your work, studies, goals and life in one orbit.",
+  "type": "module",
+  "workspaces": [
+    "apps/web",
+    "apps/server",
+    "packages/shared"
+  ],
+  "scripts": {
+    "dev": "npm run dev --workspace=apps/web",
+    "build": "npm run build --workspace=apps/web",
+    "typecheck": "npm run typecheck --workspaces --if-present"
+  }
+}
